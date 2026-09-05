@@ -1,0 +1,16 @@
+# Gradle and Kotlin local state
+.gradle/
+.gradle-user-home/
+.kotlin/
+build/
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# Local Java / OS files
+.java-version
+*.log
+.DS_Store
+Thumbs.db

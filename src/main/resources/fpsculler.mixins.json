@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.xitadoptus.fpsculler.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SpawnerRendererMixin",
+    "ItemEntityRendererMixin",
+    "ParticleEngineMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

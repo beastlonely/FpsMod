@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsculler",
+  "version": "${version}",
+  "name": "FPS Culler",
+  "description": "Client-side visual culling options for Minecraft 1.21.11.",
+  "authors": ["Xitado"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      { "value": "com.xitadoptus.fpsculler.FpsCullerMod", "adapter": "kotlin" }
+    ]
+  },
+  "mixins": ["fpsculler.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*"
+  }
+}
